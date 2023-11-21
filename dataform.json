@@ -1,8 +1,0 @@
-{
-  "defaultSchema": "dataform",
-  "assertionSchema": "dataform_assertions",
-  "warehouse": "bigquery",
-  "defaultDatabase": "pj-raf-df-26-orch-dev",
-  "defaultLocation": "EU"
-}
-    
