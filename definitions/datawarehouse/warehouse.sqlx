@@ -1,6 +1,6 @@
 config {
     type: "table",
-    database: constants.pj_raw,
+    database: constants.pj_dwh,
     name: "dwh__fact__bigquery_job",
     columns: {
         user_email: "The email of the user who has executed the query"
