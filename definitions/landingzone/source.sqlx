@@ -7,9 +7,9 @@ config {
 }
 
   -- TO SPECIFY ALL THE CORRECT ENVIRONMENTS
-  -- -> ingestion only on prd: "{{'{{'}}cookiecutter.__project_id_landing_zone_prd{{'}}'}}"
-  -- -> ingestion on dev and prd: "{{'{{'}}'{{cookiecutter.__project_id_raw}}-'+target.name if target.name in ['dev','prd'] else '{{cookiecutter.__project_id_raw}}'{{'}}'}}"
-  -- -> ingestion on dev acc and prd: "{{'{{'}}'{{cookiecutter.__project_id_raw}}-'+target.name if target.name in ['dev','acc','prd'] else '{{cookiecutter.__project_id_raw}}'{{'}}'}}"
+  -- -> ingestion only on prd: "{{cookiecutter.__project_id_landing_zone_prd}}"
+  -- -> ingestion on dev and prd: "{{'pj-rafael5-df-raw-'+target.name if target.name in ['dev','prd'] else 'pj-rafael5-df-raw'}}"
+  -- -> ingestion on dev acc and prd: "{{'pj-rafael5-df-raw-'+target.name if target.name in ['dev','acc','prd'] else 'pj-rafael5-df-raw'}}"
   -- SOURCE NAMING CONVENTION
   -- <loader>__<database>__<schema>
   -- e.g. fivetran__sales_db__dbo
