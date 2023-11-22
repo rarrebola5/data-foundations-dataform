@@ -4,5 +4,12 @@
   "warehouse": "bigquery",
   "defaultDatabase": "pj-rafael5-df-orch-dev",
   "defaultLocation": "EU"
+
+  "vars" : {
+    "executionSetting": "dev"
+    "base_pj_id" = "pj-rafael5-df"
+  }
 }
+
+
     
