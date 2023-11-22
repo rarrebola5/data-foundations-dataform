@@ -6,8 +6,8 @@
   "defaultLocation": "EU"
 
   "vars" : {
-    "executionSetting": "dev"
-    "base_pj_id" = "pj-rafael5-df"
+    "executionSetting": "dev",
+    "base_pj_id" : "pj-rafael5-df"
   }
 }
 
