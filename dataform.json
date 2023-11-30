@@ -7,7 +7,11 @@
 
   "vars": {
     "executionSetting": "dev",
-    "base_pj_id": "pj-r56"
+    "base_pj_orch":"pj-r56-orch",
+    "base_pj_lz":"pj-r56-lz",
+    "base_pj_raw":"pj-r56-raw",
+    "base_pj_dwh":"pj-r56-dwh",
+    "base_pj_dm":"pj-r56-dm"
   }
 }
     
