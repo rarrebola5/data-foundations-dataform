@@ -12,4 +12,4 @@ SELECT
   creation_time AS _meta_ts_source,
   *
 FROM
-  ${ref("JOBS_BY_USER")}
+  ${ref("INFORMATION_SCHEMA")}
